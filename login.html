@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__logo" href="/">
+                <img src="./image/mail.png" alt="gmail">
+                <span>Gmail</span>
+            </a>
+            <ul class="header__navlinks">
+                <li><a href="#">POUR LES PROS</a></li><li><a class="active" href="#">CONNEXION</a></li><li><a href="index.html">CRÉER UN COMPTE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form">
+            <h1 id="h1">Bienvenue dans votre espace</h1>
+            
+            <form class="formu" action="#" method="GET">
+                <fieldset>
+                    <legend>Connectez à votre compte</legend>
+                    <label for="login">Mail ou login *</label>
+                    <input type="text" name="login" id="login">
+                    <label for="mdp">Mot de passe *</label>
+                    <input type="password" name="mdp" id="mdp">
+                </fieldset>
+                
+            </form>
+        </section>
+        
+    </main>
+    <script src="./js/login.js"></script>
+</body>
+</html>

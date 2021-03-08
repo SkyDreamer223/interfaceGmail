@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.333rem;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    
+    &__nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+
+        padding: .5rem;
+        >img {
+            display: block;
+            float: left;
+        }
+        >span {
+            font-size: 2rem;
+            color: $primary;
+        }
+    }
+
+    &__navlinks {
+        color: $primary;
+
+        >li{
+            display: inline-block;
+        }
+        >li a{
+            color: $primary;
+            vertical-align: middle;
+            padding: 1.7rem 2.5rem;
+            transition: all 200ms ease-in-out;
+        }
+
+        >li a:hover {
+            color: $btn;
+        }
+
+        li .active, li .active:hover {
+            background-color: $btn;
+            color: #fff;  
+        }
+        
+        
+    }
+
+}
