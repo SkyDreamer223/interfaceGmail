@@ -38,7 +38,7 @@
             </h1>
             <p>Avec les nouveaux onglets personalisables, réperez immédiatement les nouveaux messages et choississez ceux que vous souhaitez lire en priorité.</p>
             <h2 id="warning" class="warning">Tous les champs sont obligatoires</h2>
-            <form id="formulaire" class="formu" action="#" method="GET">
+            <form id="formulaire" class="formu" action="login.php" method="POST">
                 <fieldset>
                     <legend>Créer un compte</legend>
                     <label for="nom">Nom *</label>
@@ -46,10 +46,11 @@
                     <label for="prenom">Prénom *</label>
                     <input id="prenom" name="prenom" type="text" placeholder="Votre prenom" aria-required="true">
                     <label for="mail">Mail *</label>
-                    <input id="mail" name="mail" type="email" placeholder="Votre mail" aria-required="true">
+                    <input id="mail" name="mail" type="text" placeholder="Votre mail" aria-required="true">
                     <label for="psw">Nom *</label>
                     <input id="psw" name="psw" type="password" placeholder="Votre mot de passe" aria-required="true">
-                    <input id="submit" type="submit" value="VALIDER VOTRE COMPTE">
+                    <input id="submit" type="submit" value="VALIDER VOTRE COMPTE" name="valider">
+                   
                 </fieldset>
             </form>
         </section>

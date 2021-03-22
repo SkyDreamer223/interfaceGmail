@@ -1,6 +1,7 @@
 // color
 $primary: #777;
 $btn : #dd5347;
+$fond : #fafafa;
 
 
 
@@ -18,7 +19,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    font-weight: 200;
+    font-weight: 300;
+    background-color: $fond;
 }
 
 *, *::before, *::after {
@@ -63,4 +65,15 @@ ul, li {
     padding: 1rem 2rem;
     
     
+}
+.warningb {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    
+    color: $btn;
+    padding: .5rem;
+    text-align: center;
+    display: block;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .1rem 0 rgba(0, 0, 0, 0.4);
 }

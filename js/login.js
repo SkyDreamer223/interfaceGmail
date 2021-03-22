@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", ()=>{
-    document.getElementById("h1").innerText += " "+localStorage.getItem("nom");
+
+    let h2 = document.getElementById("warningH2");
+
+    if(h2.value == ""){
+        h2.style.display="none";
+        console.log("flag")
+    }
 })

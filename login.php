@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/style.css">
     <title>Login</title>
 </head>
@@ -21,7 +23,13 @@
     </header>
     <main>
         <section class="form">
-            <h1 id="h1">Bienvenue dans votre espace</h1>
+            <h1 id="h1"><?php  echo 'Bienvenue dans votre espace '.$_POST['prenom']; ?></h1>
+
+            <h2 class="warningb" id="warningH2">
+                <?php
+                    include_once("./src/inscription.inc.php");
+                ?>
+            </h2>
             
             <form class="formu" action="#" method="GET">
                 <fieldset>
@@ -30,6 +38,7 @@
                     <input type="text" name="login" id="login">
                     <label for="mdp">Mot de passe *</label>
                     <input type="password" name="mdp" id="mdp">
+                    <p><?php ?></p>
                 </fieldset>
                 
             </form>

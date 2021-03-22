@@ -15,7 +15,8 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 300;
+  background-color: #fafafa;
 }
 
 *, *::before, *::after {
@@ -69,6 +70,18 @@ ul, li {
   background-color: #dd5347;
   color: #fff;
   padding: 1rem 2rem;
+}
+
+.warningb {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #dd5347;
+  padding: .5rem;
+  text-align: center;
+  display: block;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.4);
 }
 
 .header {
@@ -184,7 +197,7 @@ ul, li {
   margin-top: 1rem;
   font-size: 1.4rem;
   background-color: #dd5347;
-  color: #fafafa;
+  color: #FFF;
   padding: .5rem;
   text-align: center;
   display: none;
@@ -207,6 +220,11 @@ ul, li {
 .form .formu fieldset {
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+}
+
+.form .formu fieldset p {
+  font-size: 1rem;
+  color: #dd5347;
 }
 
 .form .formu legend {
