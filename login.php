@@ -17,7 +17,7 @@
                 <span>Gmail</span>
             </a>
             <ul class="header__navlinks">
-                <li><a href="#">POUR LES PROS</a></li><li><a class="active" href="#">CONNEXION</a></li><li><a href="index.html">CRÉER UN COMPTE</a></li>
+                <li><a href="#">POUR LES PROS</a></li><li><a class="active" href="#">CONNEXION</a></li><li><a href="index.php">CRÉER UN COMPTE</a></li>
             </ul>
         </nav>
     </header>
